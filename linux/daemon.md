@@ -7,3 +7,9 @@
 3. apached, mysqld 등과 같이 마지막이 d (daemon)으로 끝남.  
 4. root권한으로 실행된다.  
 
+
+### 1. daemon 과 background program (& 으로 실행)   
+* 터미널에서 &으로 실행되기에 그 터미널 프로세스에 종속되면 안된다.  
+[diff](https://unix.stackexchange.com/questions/56495/whats-the-difference-between-running-a-program-as-a-daemon-and-forking-it-into)  
+
+
